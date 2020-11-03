@@ -115,3 +115,12 @@ footer ul li {
     background-color: white;
     opacity: .8;
 }
+
+@media only screen and (max-width:480px){
+    .coding_container{
+        max-width: fit-content;
+    }
+    .pilot_container{
+        max-width: fit-content;
+    }
+}
