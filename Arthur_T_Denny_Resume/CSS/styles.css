@@ -67,15 +67,51 @@ footer ul li {
     width: 30%;
     text-transform: uppercase;
 }
-.selection_container {
+.pilot_container {
+    background-image: url(../Resources/Images/Citation_X.jpg);
+    background-size: cover;
+    background-position: center;
     margin-top: 40px;
     margin-bottom: 80px;
-    padding-top:234px;
+    vertical-align: middle;
     display: inline-block;
-    width: 40%;
+    width: 500px;
     height: 500px;
     border: solid;
     box-sizing:border-box;
     font-family: 'Raleway';
     text-transform: uppercase;
+}
+.pilot_container h2{
+    width: 40%;
+    margin: 225px auto;
+    text-align: center;
+    border-top:solid;
+    border-bottom: solid;
+    background-color: white;
+    opacity: .8;
+}
+.coding_container {
+    background-image: url(../Resources/Images/Coding.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    box-sizing:border-box;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+.coding_container h2{
+    width: 40%;
+    margin: 225px auto;
+    text-align: center;
+    border-top:solid;
+    border-bottom: solid;
+    background-color: white;
+    opacity: .8;
 }
