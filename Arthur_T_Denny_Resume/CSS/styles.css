@@ -132,4 +132,8 @@ footer ul li {
     }
     footer{
         padding-bottom: 80px;
+    }   
+    footer ul li{
+        font-size: .9rem
+    }
 }
