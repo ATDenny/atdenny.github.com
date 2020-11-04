@@ -16,6 +16,12 @@ body{
     background-color: rgb(209, 240, 255);
     font-family: 'Montserrat';
 }
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
 header{
     padding-top: 50px;
     font-weight: 400;
