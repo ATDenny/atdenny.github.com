@@ -85,8 +85,7 @@ footer ul li {
     width: 40%;
     margin: 225px auto;
     text-align: center;
-    border-top:solid;
-    border-bottom: solid;
+    border:solid;
     background-color: white;
     opacity: .8;
 }
@@ -109,8 +108,7 @@ footer ul li {
     width: 40%;
     margin: 225px auto;
     text-align: center;
-    border-top:solid;
-    border-bottom: solid;
+    border:solid;
     background-color: white;
     opacity: .8;
 }
