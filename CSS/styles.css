@@ -72,6 +72,9 @@ footer ul li {
     background-color: white;
     opacity: .8;
 }
+.pilot_container h2 a{
+    text-decoration: none;
+}
 .coding_container {
     background-image: url(../Resources/Images/Coding.jpg);
     background-size: cover;
