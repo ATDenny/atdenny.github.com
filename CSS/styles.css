@@ -6,22 +6,6 @@
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-@font-face {
-    font-family: 'Raleway';
-    font-style: italic;
-    font-weight: 100;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptsg8zYS_SKggPNyCg4TYFqL_KWxQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-    font-family: 'Raleway';
-    font-style: italic;
-    font-weight: 300;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/raleway/v18/1Ptsg8zYS_SKggPNyCg4TYFqL_KWxQ.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
 *{
     margin: 0;
     padding: 0;
@@ -30,10 +14,10 @@
 body{
     font-size: 16px;
     background-color: rgb(209, 240, 255);
+    font-family: 'Montserrat';
 }
 header{
     padding-top: 50px;
-    font-family: 'Montserrat';
     font-weight: 400;
     text-align: center;
     font-size: 1.6em;
@@ -58,13 +42,13 @@ footer{
     padding-bottom: 10px;
 }
 footer ul li {
-    font-family: 'Raleway';
-    font-weight: 300;
-    font-style: italic;
     font-size: 1.3rem;
     display: inline-block;
     width: 30%;
     text-transform: uppercase;
+}
+.index_container{
+    display: block;
 }
 .pilot_container {
     background-image: url(../Resources/Images/Citation_X.jpg);
@@ -78,7 +62,6 @@ footer ul li {
     height: 500px;
     border: solid;
     box-sizing:border-box;
-    font-family: 'Raleway';
     text-transform: uppercase;
 }
 .pilot_container h2{
@@ -101,7 +84,6 @@ footer ul li {
     height: 500px;
     border: solid;
     box-sizing:border-box;
-    font-family: 'Raleway';
     text-transform: uppercase;
 }
 .coding_container h2{
@@ -113,13 +95,25 @@ footer ul li {
     opacity: .8;
 }
 .about_me{
+    background-image: url(../Resources/Images/about_me.jpg);
+    background-size: cover;
+    background-position: center;
     width: 80%;
-    height: 150px;
+    height: 380px;
     box-sizing: border-box;
+    text-transform: uppercase;
     margin:auto;
     margin-bottom: 20px;
     padding-bottom: 40px;
     border: solid;
+}
+.about_me h2{
+    width: 40%;
+    margin: 175px auto;
+    text-align: center;
+    border:solid;
+    background-color: white;
+    opacity: .8;
 }
 @media only screen and (max-width:600px){
     header h1{
@@ -129,7 +123,7 @@ footer ul li {
         max-width: 80%;
         max-height: 80%;
         min-width: 80%;
-        min-height:80%;
+        min-height: 80%;
     }
     .coding_container h2{
         width: 80%;
@@ -142,6 +136,5 @@ footer ul li {
     }
     footer{
         padding-bottom: 80px;
-        font-size: .9rem;
     }
 }
