@@ -136,5 +136,15 @@ footer ul li {
     }
     footer{
         padding-bottom: 80px;
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width:900px) and (portrait){
+    .coding_container h2{
+        width: 80%;
+    }
+    footer{
+        font-size: 0.9rem;
     }
 }
