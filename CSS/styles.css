@@ -140,7 +140,7 @@ footer ul li {
     }
 }
 
-@media only screen and (max-width:900px) and (portrait){
+@media only screen and (max-width:1200px){
     .coding_container h2{
         width: 80%;
     }
