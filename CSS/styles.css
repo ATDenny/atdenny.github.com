@@ -16,12 +16,6 @@ body{
     background-color: rgb(209, 240, 255);
     font-family: 'Montserrat';
 }
-a:link{
-    color: black;
-}
-a:visited{
-    color: black;
-}
 header{
     padding-top: 50px;
     font-weight: 400;
@@ -52,6 +46,12 @@ footer ul li {
     display: inline-block;
     width: 30%;
     text-transform: uppercase;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
 }
 .index_container{
     display: block;
@@ -145,15 +145,5 @@ footer ul li {
     }
     footer{
         padding-bottom: 80px;
-        font-size: 0.75rem;
-    }
-}
-
-@media only screen and (max-width:1200px){
-    .coding_container h2{
-        width: 80%;
-    }
-    footer{
-        font-size: 0.9rem;
     }
 }
