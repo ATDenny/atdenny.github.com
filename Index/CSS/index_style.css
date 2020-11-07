@@ -187,6 +187,11 @@ button:hover{
     background-color: #1774B3;
     min-height: 700px;
 }
+@media only screen and (max-width:720px){
+    .photo-hero{
+        padding-bottom: 80px;
+    }
+}
 .photo-hero-text{
     padding: 0 20px;
 }
@@ -204,3 +209,33 @@ button:hover{
     line-height: 1.2;
     margin-bottom: 30px;
 }
+.photo-hero-text p span{
+    color: #FCBF65;
+    font-size: 32px;
+}
+.photo-grid {
+    margin-top: -80px;
+    background-color: #D4EEFF;
+  }
+.image-box {
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 30%;
+    max-height: 450px;
+    overflow:hidden;
+    float: left;
+    display: inline-block;
+  }
+  @media only screen and (max-width: 720px){
+      .image-box{
+          width: 80%;
+      }
+  }
+  @media only screen and (min-width:720px) and (max-width: 1200px){
+      .image-box{
+          width: 40%;
+      }
+  }
+  .image-box img {
+    width: 100%;
+  }
