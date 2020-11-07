@@ -65,9 +65,10 @@ h2{
         font-size: 55px;
     }
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (min-width:720px) and (max-width: 1024px){
     h1{
         font-size: 55px;
+        line-height: 1.05;
     }
     h2{
         font-size: 55px;
@@ -218,26 +219,62 @@ button:hover{
     background-color: #D4EEFF;
   }
 .image-box {
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
     margin: 20px;
     width: 30%;
     max-height: 450px;
     overflow:hidden;
     float: left;
     display: inline-block;
-  }
-  @media only screen and (max-width: 720px){
-      .image-box{
-          width: 80%;
-          margin: 10%;
-      }
-  }
-  @media only screen and (min-width:720px) and (max-width: 1200px){
-      .image-box{
-          width: 40%;
-          margin: 5%;
-      }
-  }
-  .image-box img {
+}
+@media only screen and (max-width: 720px){
+    .image-box{
+        width: 80%;
+        margin: 10%;
+    }
+}
+@media only screen and (min-width:720px) and (max-width: 1200px){
+    .image-box{
+        width: 40%;
+        margin: 5%;
+    }
+}
+.image-box img {
     width: 100%;
-  }
+}
+.photo-blockquote{
+    background-color: #FCBF65;
+    margin-top: -80px;
+    padding: 80px;
+}
+blockquote {
+    margin: 0 auto;
+}
+blockquote p {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    color: #1774B3;
+    padding-top: 30px;
+}
+blockquote:before {
+    content: '  ';
+    display: block;
+    font-family: 'Playfair Display', Georgia, serif;
+    text-align: center;
+    font-size: 150px;
+    color: #1774B3;
+    line-height: 30px;
+    padding-top: 40px;
+}
+blockquote footer {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #D9F1FF;
+}
+blockquote footer span{
+    border-bottom: solid 3px #B07723;
+}
