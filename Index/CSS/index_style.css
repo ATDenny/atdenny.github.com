@@ -187,6 +187,9 @@ button:hover{
 .photo-hero{
     background-color: #1774B3;
     min-height: 700px;
+    background-image: url(../Resources/photo-hero-background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 @media only screen and (max-width:720px){
     .photo-hero{
