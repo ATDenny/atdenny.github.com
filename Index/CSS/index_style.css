@@ -182,7 +182,12 @@ button:hover{
     background-color: transparent;
     float: left;
 }
-
+.button-secondary{
+    border: 1px solid #1774B3;
+    color: #D4EEFF;
+    background-color: transparent;
+    margin: 0 auto;
+}
 /* 6. Page Styles*/
 .photo-hero{
     background-color: #1774B3;
