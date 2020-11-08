@@ -202,7 +202,7 @@ button:hover{
 }
 .photo-hero h1 span{
     color: #65C0FC;
-    border-bottom: #B07723 3px solid;
+    text-shadow: 3px 3px #B07723;
 }
 .photo-hero p{
     color: #D4EEFF;
@@ -243,7 +243,7 @@ button:hover{
 }
 .photo-blockquote{
     background-color: #FCBF65;
-    margin-top: -80px;
+    /*margin-top: -80px;*/
     padding: 80px;
 }
 blockquote {
@@ -255,7 +255,7 @@ blockquote p {
     line-height: 1.4;
     text-align: center;
     color: #1774B3;
-    padding-top: 30px;
+    /*padding-top: 30px;*/
 }
 blockquote:before {
     content: '  ';
@@ -265,7 +265,7 @@ blockquote:before {
     font-size: 150px;
     color: #1774B3;
     line-height: 30px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
 }
 blockquote footer {
     font-family: "Open Sans", Helvetica, sans-serif;
@@ -277,4 +277,21 @@ blockquote footer {
 }
 blockquote footer span{
     border-bottom: solid 3px #B07723;
+}
+.about-me{
+    background-color: #B07723;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.about-me p{
+    color: #D4EEFF;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.about-me h2{
+    text-align: center;
+    color: #FCBF65;
+    margin: 1em 0 40px;
 }
