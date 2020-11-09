@@ -62,7 +62,7 @@ h2{
         line-height: .9;
     }
     h2{
-        font-size: 55px;
+        font-size: 45px;
     }
 }
 @media only screen and (min-width:720px) and (max-width: 1024px){
@@ -71,7 +71,7 @@ h2{
         line-height: 1.05;
     }
     h2{
-        font-size: 55px;
+        font-size: 45px;
     }
 }
 p{
@@ -171,10 +171,11 @@ button:hover{
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease, button-radius 0.5s ease;
 }
 .button:hover{
-    opacity: 0.75;
+    opacity: 0.85;
+    border-radius: 5px;
 }
 .button-primary{
     border: 1px solid #B07723;
@@ -222,4 +223,100 @@ button:hover{
     color: #FCBF65;
     font-size: 32px;
 }
-
+.flight-time{
+    padding: 80px;
+    text-align: center;
+    color: #B07723;
+    font-size: 24px;
+    background-color: #D4EEFF;
+}
+.flight-time h2{
+    margin-top: -20px;
+}
+.flight-time-table{
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #1774B3;
+    text-align: center;
+}
+@media only screen and (max-width:920px){
+    .flight-time-table{
+        display: none;
+    }
+}
+.flight-time-table thead td{
+    padding:0 50px;
+    border-bottom: 1px solid #1774B3;
+}
+.flight-time-table-mobile{
+    border: 1px solid #1774B3;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.flight-time-table-mobile tr td{
+    border-bottom: 1px solid #1774b3;
+}
+@media (min-width:920px){
+    .flight-time-table-mobile{
+        display: none;
+    }
+}
+@media only screen and (min-width:720px) and (max-width:920px){
+    .flight-time-table-mobile tr td{
+        padding: 0 20px;
+        font-size: 30px;
+    }
+}
+.blockquote{
+    background-color: #FCBF65;
+    /*margin-top: -80px;*/
+    padding: 80px;
+}
+blockquote {
+    margin: 0 auto;
+}
+blockquote p {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    color: #1774B3;
+    /*padding-top: 30px;*/
+}
+@media only screen and (max-width:720px){
+    blockquote p{
+        font-size: 20px;
+    }
+}
+blockquote:before {
+    content: '  ';
+    display: block;
+    font-family: 'Playfair Display', Georgia, serif;
+    text-align: center;
+    font-size: 150px;
+    color: #1774B3;
+    line-height: 30px;
+    /*padding-top: 40px;*/
+}
+.work-history{
+    background-color: #B07723;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.work-history p{
+    color: #D4EEFF;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.work-history h2{
+    text-align: center;
+    color: #FCBF65;
+    margin: 1em 0 40px;
+}
+.work-history h3{
+    color: #FCBF65;
+}
