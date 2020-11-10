@@ -152,6 +152,23 @@ img{
     margin: 0 auto;
     max-width: 1280px;
 }
+.footer-social-icons{
+    display: inline-block;
+    padding: 0 30px;
+    float: right;
+}
+.footer-social-icons a img{
+    max-height: 23px;
+    width: auto;
+    float: right;
+}
+@media only screen and (max-width:720px){
+    .footer-social-icons{
+        float: none;
+        display: inline-block;
+        padding: 30px;
+    }
+}
 
 /* 5. Component Styles*/
 
@@ -170,7 +187,7 @@ button:hover{
     line-height: normal;
     padding: 15px 30px;
     text-align: center;
-    text-decoration: none;    
+    text-decoration: none;
     transition: opacity 0.5s ease, button-radius 0.5s ease;
 }
 .button:hover{
@@ -188,6 +205,23 @@ button:hover{
     color: #D4EEFF;
     background-color: transparent;
     margin: 0 auto;
+}
+#mobile-return-to-top{
+    display: none;
+}
+@media only screen and (max-width:720px){
+    #mobile-return-to-top{
+        display: inline;
+        position: fixed;
+        background-color: #1774B3;
+        bottom: 50px;
+        right: 27px;
+        z-index: 10;
+        opacity: .5;
+        padding: 0 5px;
+        border: 1px solid #FCBF65;
+        border-radius: 3px;
+    }
 }
 /* 6. Page Styles*/
 .photo-hero{
@@ -223,33 +257,53 @@ button:hover{
     color: #FCBF65;
     font-size: 32px;
 }
-.photo-grid {
-    margin-top: -80px;
+.flight-time{
+    padding: 80px;
+    text-align: center;
+    color: #B07723;
+    font-size: 24px;
     background-color: #D4EEFF;
-  }
-.image-box {
-    margin: 20px;
-    width: 30%;
-    max-height: 450px;
-    overflow:hidden;
-    float: left;
 }
-@media only screen and (max-width: 720px){
-    .image-box{
-        width: 80%;
-        margin: 10%;
+.flight-time h2{
+    margin-top: -20px;
+}
+.flight-time-table{
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #1774B3;
+    text-align: center;
+}
+@media only screen and (max-width:920px){
+    .flight-time-table{
+        display: none;
     }
 }
-@media only screen and (min-width:720px) and (max-width: 1200px){
-    .image-box{
-        width: 40%;
-        margin: 5%;
+.flight-time-table thead td{
+    padding:0 50px;
+    border-bottom: 1px solid #1774B3;
+}
+.flight-time-table-mobile{
+    border: 1px solid #1774B3;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.flight-time-table-mobile tr td{
+    border-bottom: 1px solid #1774b3;
+}
+@media (min-width:920px){
+    .flight-time-table-mobile{
+        display: none;
     }
 }
-.image-box img {
-    width: 100%;
+@media only screen and (min-width:720px) and (max-width:920px){
+    .flight-time-table-mobile tr td{
+        padding: 0 20px;
+        font-size: 30px;
+    }
 }
-.photo-blockquote{
+.blockquote{
     background-color: #FCBF65;
     /*margin-top: -80px;*/
     padding: 80px;
@@ -265,6 +319,11 @@ blockquote p {
     color: #1774B3;
     /*padding-top: 30px;*/
 }
+@media only screen and (max-width:720px){
+    blockquote p{
+        font-size: 20px;
+    }
+}
 blockquote:before {
     content: '  ';
     display: block;
@@ -275,31 +334,46 @@ blockquote:before {
     line-height: 30px;
     /*padding-top: 40px;*/
 }
-blockquote footer {
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    color: #D9F1FF;
-}
-blockquote footer span{
-    border-bottom: solid 3px #B07723;
-}
-.about-me{
+.work-history{
     background-color: #B07723;
     margin: 0 auto;
     padding:0 20px;
 }
-.about-me p{
+.work-history p{
     color: #D4EEFF;
     font-size: 18px;
     line-height: 1.2;
     margin-bottom: 30px;
     text-align: justify;
 }
-.about-me h2{
+.work-history h2{
     text-align: center;
     color: #FCBF65;
     margin: 1em 0 40px;
+}
+.work-history h3{
+    color: #FCBF65;
+}
+@media (min-width:750px){
+    .work-box h3{
+        float: left;
+        margin: 30px 0;
+    }
+    .work-box ul{
+        float: right;
+        margin: 30px 0;
+    }
+}
+@media only screen and (max-width:720px){
+    .work-box-mobile-scroll{
+        max-height: 370px;
+        overflow: scroll;
+        margin-bottom: 30px;
+        line-height: 1.2;
+    }
+}
+@media (min-width:720px){ 
+    .work-box-mobile-scroll hr{
+        display: none;
+    }
 }
