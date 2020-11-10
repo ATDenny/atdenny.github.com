@@ -152,6 +152,23 @@ img{
     margin: 0 auto;
     max-width: 1280px;
 }
+.footer-social-icons{
+    display: inline-block;
+    padding: 0 30px;
+    float: right;
+}
+.footer-social-icons a img{
+    max-height: 23px;
+    width: auto;
+    float: right;
+}
+@media only screen and (max-width:720px){
+    .footer-social-icons{
+        float: none;
+        display: inline-block;
+        padding: 30px;
+    }
+}
 
 /* 5. Component Styles*/
 
@@ -188,6 +205,23 @@ button:hover{
     color: #D4EEFF;
     background-color: transparent;
     margin: 0 auto;
+}
+#mobile-return-to-top{
+    display: none;
+}
+@media only screen and (max-width:720px){
+    #mobile-return-to-top{
+        display: inline;
+        position: fixed;
+        background-color: #1774B3;
+        bottom: 50px;
+        right: 27px;
+        z-index: 10;
+        opacity: .5;
+        padding: 0 5px;
+        border: 1px solid #FCBF65;
+        border-radius: 3px;
+    }
 }
 /* 6. Page Styles*/
 .photo-hero{
@@ -308,7 +342,7 @@ blockquote:before {
 .work-history p{
     color: #D4EEFF;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.2;
     margin-bottom: 30px;
     text-align: justify;
 }
@@ -335,6 +369,7 @@ blockquote:before {
         max-height: 370px;
         overflow: scroll;
         margin-bottom: 30px;
+        line-height: 1.2;
     }
 }
 @media (min-width:720px){ 
