@@ -320,3 +320,25 @@ blockquote:before {
 .work-history h3{
     color: #FCBF65;
 }
+@media (min-width:750px){
+    .work-box h3{
+        float: left;
+        margin: 30px 0;
+    }
+    .work-box ul{
+        float: right;
+        margin: 30px 0;
+    }
+}
+@media only screen and (max-width:720px){
+    .work-box-mobile-scroll{
+        max-height: 370px;
+        overflow: scroll;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:720px){ 
+    .work-box-mobile-scroll hr{
+        display: none;
+    }
+}
