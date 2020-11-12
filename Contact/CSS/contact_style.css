@@ -88,6 +88,8 @@ a{
 }
 a[href^=tel] {
     color: inherit;
+    font-family: inherit;
+    font-size: inherit;
     text-decoration: none;
 }
 ul{
