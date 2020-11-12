@@ -204,6 +204,24 @@ button:hover{
     color: #D4EEFF;
     background-color: transparent;
     margin: 0 auto;
+    padding: 30px 45px;
+    font-size: 24px;
+}
+.button-live{
+    display: inline-block;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.5s ease, button-radius 0.5s ease;
+}
+.button-live:hover{
+    opacity: 0.85;
+    border-radius: 5px;
 }
 #mobile-return-to-top{
     display: none;
@@ -255,4 +273,81 @@ button:hover{
 .photo-hero-text p span{
     color: #FCBF65;
     font-size: 32px;
+}
+.social-banner{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #D4EEFF;
+    padding: 40px 0;
+}
+.social-icon{
+    display: inline-block;
+}
+.social-icon ul li img{
+    display: inline;
+    height: 100px;
+    width: auto;
+    margin: 30px 50px;
+}
+.contact-information{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FCBF65;
+    color: #1774B3;
+    padding: 40px 35px;
+}
+.contact-information h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact-information p{
+    font-size: 24px;
+    text-align: center;
+}
+blockquote p {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    color: #1774B3;
+    /*padding-top: 30px;*/
+}
+blockquote:before {
+    content: '  ';
+    display: block;
+    font-family: 'Playfair Display', Georgia, serif;
+    text-align: center;
+    font-size: 150px;
+    color: #1774B3;
+    line-height: 30px;
+    /*padding-top: 40px;*/
+}
+@media only screen and (max-width:720px){
+    blockquote p{
+        font-size: 20px;
+    }
+    blockquote p span{
+        font-size: 16px;
+    }
+}
+.contact-direct-links{
+    background-color: #B07723;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.contact-direct-links p{
+    color: #D4EEFF;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.contact-direct-links h2{
+    text-align: center;
+    color: #FCBF65;
+    margin: 1em 0 40px;
+}
+.contact-direct-links .button-live{
+    display: block;
 }
