@@ -86,7 +86,7 @@ a{
     text-decoration: none;
     color: #FCBF65;
 }
-a[href^=tel] {
+a[href^=tel]:not(.button) {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
